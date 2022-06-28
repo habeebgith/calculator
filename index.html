@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <p class="result-box">0</p>
+      </div>
+      <div class="buttons">
+        <div class="button action-btn" id="clear" data-type="clear">AC</div>
+        <div class="button action-btn" id="delete" data-type="delete">DEL</div>
+        <div class="button action-btn">%</div>
+        <div class="button calc-action-btn" data-action="divide" data-type="operator">/</div>
+        <div class="button num-btn seven" data-type="number">7</div>
+        <div class="button num-btn eight" data-type="number">8</div>
+        <div class="button num-btn nine" data-type="number">9</div>
+        <div class="button calc-action-btn" data-action="multiply" data-type="operator">*</div>
+        <div class="button num-btn four" data-type="number">4</div>
+        <div class="button num-btn five" data-type="number">5</div>
+        <div class="button num-btn six" data-type="number">6</div>
+        <div class="button calc-action-btn" data-action="minus" data-type="operator">-</div>
+        <div class="button num-btn one" data-type="number">1</div>
+        <div class="button num-btn two" data-type="number">2</div>
+        <div class="button num-btn three" data-type="number">3</div>
+        <div class="button calc-action-btn" data-action="plus" data-type="operator">+</div>
+        <div class="button num-btn zero" data-type="number">0</div>
+        <div class="button num-btn point" data-type="decimal">.</div>
+        <div class="button calc-action-btn" id="total" data-type="equal">=</div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
